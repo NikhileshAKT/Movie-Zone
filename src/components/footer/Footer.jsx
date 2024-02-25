@@ -1,8 +1,7 @@
 import React from "react";
 import {
-    FaFacebookF,
+    FaGithub,
     FaInstagram,
-    FaTwitter,
     FaLinkedin,
 } from "react-icons/fa";
 
@@ -31,16 +30,19 @@ const Footer = () => {
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
-                        <FaFacebookF />
+                        <a href="https://github.com/NikhileshAKT" target="_blank"> <FaGithub /> </a>
+                        
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                        <a href="https://www.instagram.com/nikhilesh_13/" target="_blank"><FaInstagram /></a>
+                        
                     </span>
-                    <span className="icon">
+                    {/* <span className="icon">
                         <FaTwitter />
-                    </span>
+                    </span> */}
                     <span className="icon">
-                        <FaLinkedin />
+                        <a href="https://www.linkedin.com/in/nikhilesh-anukunj-thakur-6a59a2201/" target="_blank"><FaLinkedin /></a>
+                       
                     </span>
                 </div>
             </ContentWrapper>
